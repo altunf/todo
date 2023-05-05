@@ -1,0 +1,24 @@
+.filter-div {
+  display: flex;
+  border-bottom: 1px solid #1a1c1d;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+.filter-button1 {
+  padding: 8px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #ffffff;
+
+  border-radius: 2px;
+}
+
+.filter-button2 {
+  padding: 8px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-bottom: 2px solid #12a3eb;
+  border-radius: 2px;
+}
