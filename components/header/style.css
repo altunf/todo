@@ -1,0 +1,11 @@
+.header-style {
+  font-size: 36px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 41px;
+  text-align: center;
+  margin-top: 32px;
+}

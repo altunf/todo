@@ -1,19 +1,9 @@
-import React from "react";
+"use client";
+import { raleway } from "@/styles/fonts";
+import "./style.css";
 
 const Header = () => {
-  return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        margin: "auto",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <h1>#todo</h1>
-    </div>
-  );
+  return <div className={`${raleway.className} header-style `}>#todo</div>;
 };
 
 export default Header;

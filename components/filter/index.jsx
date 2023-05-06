@@ -1,5 +1,7 @@
 "use client";
 import { useTodoContext } from "@/context";
+import { montserrat600 } from "@/styles/fonts";
+
 import "./style.css";
 
 const Filter = () => {
@@ -12,7 +14,7 @@ const Filter = () => {
 
   return (
     <>
-      <div className="filter-div">
+      <div className={`${montserrat600.className} filter-div`}>
         <button className={all} onClick={() => setFilter("all")}>
           All
         </button>

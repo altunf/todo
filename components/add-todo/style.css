@@ -1,0 +1,27 @@
+.input-style {
+  box-sizing: border-box;
+  width: 476px;
+  height: 56px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.button-style {
+  width: 109px;
+  height: 56px;
+  background: #2f80ed;
+  color: #ffffff;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border: none;
+  border-radius: 12px;
+}
+
+.form-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}

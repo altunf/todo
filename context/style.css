@@ -1,0 +1,24 @@
+.span-style {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.completed-button {
+  display: flex;
+  width: 124px;
+  height: 40px;
+  margin-left: 484px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #ffffff;
+  background-color: #eb5757;
+  border-radius: 4px;
+}
+
+.completed-div {
+  display: flex;
+  justify-content: space-between;
+}

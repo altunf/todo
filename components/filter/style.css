@@ -1,24 +1,27 @@
 .filter-div {
+  width: 608px;
   display: flex;
-  border-bottom: 1px solid #1a1c1d;
+  border-bottom: 1px solid #bdbdbd;
   justify-content: space-around;
   margin-bottom: 12px;
+  margin-top: 80px;
 }
 
 .filter-button1 {
-  padding: 8px;
+  padding: 18px;
   border: 0px;
   cursor: pointer;
   background-color: #ffffff;
-
+  font-size: 14px;
   border-radius: 2px;
 }
 
 .filter-button2 {
-  padding: 8px;
+  padding: 18px;
   border: 0px;
   cursor: pointer;
   background-color: #ffffff;
-  border-bottom: 2px solid #12a3eb;
+  border-bottom: 2px solid #2f80ed;
   border-radius: 2px;
+  font-size: 14px;
 }
